@@ -14,6 +14,7 @@ import {
 const MintNow = () => {
     return (
         <TopDiv>
+            <StrongBackOverlay/>
             <MainDiv>
                 <MintNowDiv>
                     <TitleParagraph >
@@ -35,7 +36,6 @@ const MintNow = () => {
                         </WaveDiv>
                     </WhatWeDoDiv>
                 </BackOverlay>
-                <StrongBackOverlay/>
             </MainDiv>
             <Header />
         </TopDiv>

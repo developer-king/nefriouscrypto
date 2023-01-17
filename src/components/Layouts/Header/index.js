@@ -55,7 +55,7 @@ const Header = () => {
         },
         {
             label : <InstagramIcon />,
-            link : '/#'
+            link : 'https://instagram.com/pirateshipownershipnfts?igshid=YmMyMTA2M2Y='
         }
     ];
 
@@ -66,9 +66,9 @@ const Header = () => {
                 <LinkList>
                     {
                         linkList.map((item, index) => (
-                            <Link key={index} to={item.link}>
+                            <a key={index} href={item.link} target='_blank'>
                                 {item.label}
-                            </Link>
+                            </a>
                         ))
                     }
                 </LinkList>

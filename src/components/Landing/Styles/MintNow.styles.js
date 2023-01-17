@@ -65,7 +65,12 @@ export const MintButton = withStyles({
         background : '#E7D58B !important',
         fontSize : '16px !important',
         textTransform : "capitalize !important",
-        padding : '15px 30px !important'
+        padding : '5px 20px !important',
+        transition : '1s',
+        "&:hover" : {
+            background : 'black !important',
+            color : 'white !important'
+        }
     }
 })(Button) ;
 
