@@ -51,7 +51,7 @@ const Header = () => {
         },
         {
             label : <TwitterIcon />,
-            link : '/#'
+            link : 'https://twitter.com/nefariouscrypto?t=zRL_2jbbnkuoYoA1Hv8T1g&s=09'
         },
         {
             label : <InstagramIcon />,
